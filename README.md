@@ -49,5 +49,3 @@ java -jar build/libs/SimpleKotlin.jar
 1. **Change Project Name**: Update `rootProject.name` in `settings.gradle.kts`.
 2. **Update Dependencies**: Add or modify libraries in `build.gradle.kts`.
 3. **Configure Logging**: Modify `src/main/resources/logback.xml` to adjust logging levels and appenders.
-
----
