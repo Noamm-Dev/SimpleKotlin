@@ -51,5 +51,3 @@ java -jar build/libs/SimpleKotlin.jar
 3. **Configure Logging**: Modify `src/main/resources/logback.xml` to adjust logging levels and appenders.
 
 ---
-<br>
-<br>
