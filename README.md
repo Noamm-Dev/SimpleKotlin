@@ -9,7 +9,7 @@ A minimalist template for building Kotlin applications with Gradle.
 - **Plugin**: ShadowJar (8.1.1)
 - **Logging**: Logback Classic
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 ├── build.gradle.kts        # Main build configuration
