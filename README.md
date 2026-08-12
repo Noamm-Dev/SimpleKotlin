@@ -6,8 +6,8 @@ A minimalist template for building Kotlin applications with Gradle.
 
 - **Language**: Kotlin
 - **Build System**: Gradle (Kotlin DSL)
-- **Plugin**: ShadowJar (8.1.1)
-- **Logging**: Logback Classic
+- **Plugin**: ShadowJar (9.6.1)
+- **Logging**: Logback Classic (1.6.1)
 
 ## Project Structure
 
