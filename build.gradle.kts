@@ -6,7 +6,7 @@ plugins {
 }
 
 dependencies {
-    implementation("ch.qos.logback:logback-classic:1.6.1")
+    implementation("ch.qos.logback:logback-classic:1.6.3")
     //implementation("org.noamm:eventbus:1.0.2")
 }
 
