@@ -1,0 +1,26 @@
+name: Native Image
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: graalvm/setup-graalvm@v1
+        with:
+          java-version: '25'
+          distribution: 'graalvm-community'
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          cache: 'gradle'
+
+      - run: chmod +x gradlew && ./gradlew nativeCompile --no-daemon
+
+      - uses: actions/upload-artifact@v7
+        with:
+          name: SimpleKotlin-linux-amd64
+          path: build/native/nativeCompile/
